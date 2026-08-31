@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
+N = 20
+res = ""
 
-for lettre in alphabet:
-    if lettre != "q" and lettre != "e":
-        print(lettre, end="")
+for i in range(N):
+    if i != 4 and i != 16:
+        res += chr(97 + i)
+
+print(res)
