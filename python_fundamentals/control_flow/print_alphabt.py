@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-N = 20
+N = 26
 res = ""
 
 for i in range(N):
