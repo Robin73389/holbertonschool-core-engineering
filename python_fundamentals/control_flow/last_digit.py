@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+
 number = __import__('random').randint(-10000, 10000)
 
-last = number % 10
+last = abs(number) % 10
 
 if number < 0:
     last = -last
