@@ -7,4 +7,4 @@ for i in range(N):
     if i != 4 and i != 16:
         res += chr(97 + i)
 
-print(res)
+print("{}".format(res))
