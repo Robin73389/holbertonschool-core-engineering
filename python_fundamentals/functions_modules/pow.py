@@ -11,11 +11,14 @@ def pow(a, b):
         _type_: _description_
     """
     p = 1
-    for i in range(b):
+    for i in range(abs(b)):
         p = p*a
+
+    if b < 0:
+        return 1 / p
 
     return p
 
 
 if __name__ == '__main__':
-    print(pow(2, 4))
+    print(pow(10, -2))
