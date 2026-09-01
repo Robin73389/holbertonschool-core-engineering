@@ -19,8 +19,8 @@ def uppercase(str):
         else:
             result += i
 
-    return result
+    print(result)
 
 
 if __name__ == '__main__':
-    print("{}".format(uppercase("holberton")))
+    uppercase("holberton")
