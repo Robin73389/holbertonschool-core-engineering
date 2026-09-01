@@ -13,6 +13,7 @@ def uppercase(str):
     result = ""
 
     for i in str:
+
         if 'a' <= i <= 'z':
             result += chr(ord(i) - 32)
         else:
@@ -22,4 +23,4 @@ def uppercase(str):
 
 
 if __name__ == '__main__':
-    print(uppercase("holberton"))
+    print("{}".format(uppercase("holberton")))
