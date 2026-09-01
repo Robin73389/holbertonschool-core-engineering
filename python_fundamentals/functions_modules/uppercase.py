@@ -19,7 +19,7 @@ def uppercase(str):
         else:
             result += i
 
-    print(result)
+    print("{}".format(result))
 
 
 if __name__ == '__main__':
