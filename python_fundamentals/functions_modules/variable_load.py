@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from variable_load_5 import prin
+from variable_load_5 import a
 
 
 if __name__ == "__main__":
-    prin(98)
+    print(a)
