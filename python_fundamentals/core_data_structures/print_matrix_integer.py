@@ -8,5 +8,5 @@ def print_matrix_integer(matrix=[[]]):
     """
     for i in matrix:
         for c in i:
-            print("{:d}".format(c), end=" ")
+            print("{}".format(c), end=' ')
         print()
