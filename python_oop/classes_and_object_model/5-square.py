@@ -53,7 +53,7 @@ class Square:
         """_summary_
         """
         if self.size == 0:
-            print("\n")
+            print("")
         else:
             for i in range(self.size):
                 print("#" * self.size)
