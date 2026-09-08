@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+"""Square"""
+
 
 class Square():
-    """_summary_
-    """
+    """Square class"""
     pass
