@@ -46,6 +46,11 @@ class Rectangle(BaseGeometry):
 
 
 class Square(Rectangle):
+    """_summary_
+
+    Args:
+        Rectangle (_type_): _description_
+    """
     def __init__(self, size):
         """_summary_
 
