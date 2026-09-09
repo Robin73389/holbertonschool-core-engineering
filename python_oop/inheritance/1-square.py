@@ -60,11 +60,6 @@ class Square(Rectangle):
         self.integer_validator("size", size)
         self.__size = size
 
-    def print():
-        """_summary_
-        """
-        print()
-
     def area(self):
         """_summary_
 
