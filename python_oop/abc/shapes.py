@@ -94,5 +94,5 @@ def shape_info(info):
     Args:
         info (_type_): _description_
     """
-    print(info.area())
-    print(info.perimeter())
+    print(f"{info.area():.1f}")
+    print(f"{info.perimeter():.1f}")
