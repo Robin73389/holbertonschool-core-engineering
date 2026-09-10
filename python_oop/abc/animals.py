@@ -49,7 +49,7 @@ class Cat(Animal):
         _type_: _description_
     """
     # Implémenté une method sound()
-    def sound():
+    def sound(self):
         """_summary_
 
         Returns:
